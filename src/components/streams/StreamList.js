@@ -16,9 +16,11 @@ class StreamList extends React.Component {
             edit
           </Link>
 
-          <button className="ui button negative">
-            delete
-          </button>
+          <Link
+            to={`/streams/delete/${stream.id}`}
+            className="ui button negative">
+            Delete
+          </Link>
         </div>
       )
     }
@@ -34,7 +36,11 @@ class StreamList extends React.Component {
           <i className="large middle aligned icon camera"></i>
           <div className="content">
             <div className="header">
-              {stream.title}
+              <Link 
+                to={`/streams/${stream.id}`}
+                className="header">
+                {stream.title}
+              </Link>
             </div>
             <div className="description">{stream.description}</div>
           </div>
