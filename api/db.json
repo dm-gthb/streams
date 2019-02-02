@@ -1,0 +1,34 @@
+{
+  "streams": [
+    {
+      "title": "Stream",
+      "description": "Stream from another user",
+      "id": 1,
+      "userId": 22332302
+    },
+    {
+      "title": "One more Stream",
+      "description": "One more stream from another user",
+      "id": 2,
+      "userId": 345
+    },
+    {
+      "title": "My first stream",
+      "description": "first",
+      "userId": 2985474990,
+      "id": 3
+    },
+    {
+      "title": "One more by me",
+      "description": "here is description",
+      "userId": 2985474990,
+      "id": 4
+    },
+    {
+      "title": "Edited",
+      "description": "edited description",
+      "userId": 2985474990,
+      "id": 5
+    }
+  ]
+}
